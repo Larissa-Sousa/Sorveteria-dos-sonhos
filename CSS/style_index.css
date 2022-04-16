@@ -1,0 +1,532 @@
+/*css reset */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../Fontes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-normal;
+    src: url(../Fontes/Roboto-Regular.ttf);
+}
+
+html, body{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: #022859;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #021C41;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header img {
+    position: relative;
+    width: 115.8px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#menu {
+    width: 35%;
+    font-size: 20px;
+    
+}
+
+#menu a{
+    font-family: arial;
+    color: #F4F4F4;
+    padding-left: 2%;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+
+#menu a:hover{
+    color: #cbcbcb;
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-menu{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #022859;
+}
+
+.nuvem-1{
+    position: relative;
+    background-image: url("../Imagens/nuvem-baixo.png");
+    width: 100%;
+    height: 298px;
+}
+
+.nuvem-1 h1{
+    text-align: center;
+    font-family: roboto-normal;
+    padding-top: 55px;
+    font-size: 64px;
+    color: #011F27;
+}
+
+#casquinhas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#casquinhas img{
+    position: relative;
+    height: 371px;
+}
+ 
+#casquinhas h1{
+    position: relative;
+    font-family: roboto-normal;
+    font-size: 64px;
+    color: #F4F4F4;       
+}
+
+.casquinhas-conteudo{   
+    position: relative;
+    background-image: url("../Imagens/casquinha-fundo.png");
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#casquinha-1{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 30px;
+}
+
+#casquinha-1 img{
+    height: 441.29px;
+}
+
+.contador{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menos{
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 50px;
+
+}
+
+.numero{
+    font-family: roboto-normal;
+    font-size: 50px;
+}
+
+.mais{
+    font-family: roboto-normal;
+    font-size: 50px;
+}
+
+button{
+    width: 194px;
+    height: 60px;
+    background-color: #022859;
+    color: #F4F4F4;
+    font-family: roboto-normal;
+    font-size: 40px;
+}
+
+#casquinha-2{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 30px;
+}
+
+#casquinha-2 img{
+    height: 441.29px;
+}
+
+#casquinha-3{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 30px;
+}
+
+#casquinha-3 img{
+    height: 441.29px;
+}
+
+#sundaes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sundaes img{
+    position: relative;
+    height: 371px;
+}
+ 
+#sundaes h1{
+    position: relative;
+    font-family: roboto-normal;
+    font-size: 64px;
+    color: #F4F4F4;       
+}
+
+.sundaes-conteudo{   
+    position: relative;
+    background-image: url("../Imagens/sundae-fundo.png");
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sundae-1{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 25px;
+}
+
+#sundae-1 img{
+    height: 441.29px;
+}
+
+#sundae-2{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 25px;
+}
+
+#sundae-2 img{
+    height: 441.29px;
+}
+
+#sundae-3{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 25px;
+}
+
+#sundae-3 img{
+    height: 441.29px;
+}
+
+
+#pote{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pote img{
+    position: relative;
+    height: 371px;
+}
+ 
+#pote h1{
+    position: relative;
+    font-family: roboto-normal;
+    font-size: 64px;
+    color: #F4F4F4;       
+}
+
+.pote-conteudo{   
+    position: relative;
+    background-image: url("../Imagens/fundo-pote.png");
+    width: 100%;
+    height: 1200px;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pote-1{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 25px;
+}
+
+#pote-1 img{
+    height: 441.29px;
+}
+
+#pote-2{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 25px;
+}
+
+#pote-2 img{
+    height: 441.29px;
+}
+
+#pote-3{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-family: roboto-normal;
+    font-size: 25px;
+}
+
+#pote-3 img{
+    height: 441.29px;
+}
+
+#sobre-nos{
+    width: 100%;
+    height: auto;
+    background-color: #022859;
+}
+
+#amarelo{
+    background-color: #F7AA20;
+    position: relative;
+    width: 100%;
+
+
+}
+
+#amarelo h1{
+    font-family: roboto-normal;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3%;
+}
+#amarelo p{
+    position: relative;
+    font-family: roboto-normal;
+    font-size: 40px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.imagem-mapa {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.comercio {
+    position: relative;
+    height: 491px;
+}
+
+#mapa{
+    position: relative;
+}
+
+#formulario {
+    width: 100%;
+    background-color: #022859;
+}
+
+.nuvem-2{
+    position: relative;
+    background-image: url("../Imagens/nuvem-baixo.png");
+    width: 100%;
+    height: 298px;
+}
+
+.formularioconteudo {
+    color: #F4F4F4;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formularioconteudo h1{
+    width: auto;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.usuario {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.usuario img{
+    width: 70px;
+}
+
+.comentarioInp {
+    width: 40%;
+    height: 250px;
+    font-size: 24px;
+    margin: 0 auto;
+
+}
+
+input{
+    width:40%;
+    height: 70px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.enviarComentario {
+    margin: 5% auto;
+    width: 20%;
+    background-color: #011F27;
+    color: #F4F4F4;
+}
+
+.nuvem-3 {
+    position: relative;
+    background-image: url("../Imagens/nuvem-cima.png");
+    width: 100%;
+    height: 298px;
+}
+
+footer{
+    width: 100%;
+    background-color: #021C41;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.informacao {
+    color: #F4F4F4;
+    font-size: 25px;
+}
+
+.endereco{
+    display: flex;
+    gap: 15px;
+}
+
+.endereco img{
+    height: 30px;
+}
+
+.telefoneFooter {
+    display: flex;
+    gap: 15px;
+}
+
+.telefoneFooter img {
+    height: 30px;
+}
+
+
+.RedeSocial {
+    color: #F4F4F4;
+    font-size: 25px;
+}
+
+    .RedeSocial p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+.RedesImg img{
+    height: 30px;
+    padding-left: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+
+.RedesImg img:hover{
+    color: #cbcbcb;
+}
+
+.tt{
+    height:15px;
+}
+
+.logoSolo img{
+    height: 80px;
+
+}
